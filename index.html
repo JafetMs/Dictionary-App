@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f8f9fa; /* Color de fondo */
+        }
+
+        .input-icon {
+            display: flex;
+            align-items: center;
+            max-width: 400px; /* Ancho máximo del input */
+            width: 100%; /* Permite que el input sea responsive */
+            border: 1px solid #ccc; /* Borde del input */
+            border-radius: 20px; /* Bordes redondeados */
+            overflow: hidden; /* Ocultar cualquier desbordamiento */
+        }
+
+        .input-icon input {
+            flex: 1; /* Permite que el input ocupe todo el espacio disponible */
+            padding: 10px; /* Espacio interior del input */
+            border: none; /* Sin borde adicional */
+            outline: none; /* Sin contorno al hacer clic */
+            font-size: 16px; /* Tamaño de fuente */
+        }
+
+        .input-icon i {
+            padding: 10px; /* Espacio interior para el icono */
+            color: #B197FC; /* Color del icono */
+            background-color: #fff; /* Fondo blanco para el icono */
+            border-left: 1px solid #ccc; /* Borde izquierdo del icono */
+        }
+
+        /* Estilo de respuesta */
+        @media (max-width: 600px) {
+            .input-icon input {
+                font-size: 14px; /* Tamaño de fuente más pequeño */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header__container">
+        <div class="header__logo">
+            <img src="" alt="">
+        </div>
+
+        <div class="header__options">
+
+        </div>
+    </header>
+
+    <div class="input-icon">
+        <input type="text" placeholder="Nombre">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+</body>
+</html>
